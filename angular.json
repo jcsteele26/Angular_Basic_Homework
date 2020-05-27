@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularecosystem"
+    }
+  },
+  "defaultProject": "angularecosystem",
+  "cli": {
+    "analytics": "a341a4f6-f1fa-4e7e-98cb-f533698f2790"
+  }
 }
