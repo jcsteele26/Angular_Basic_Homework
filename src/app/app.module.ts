@@ -4,11 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { KillahComponent } from './killah/killah.component';
+import { WutangComponent } from './wutang/wutang.component';
+import { HomeComponent } from './home/home.component';
+import { PeopleService } from './people.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    KillahComponent
+    KillahComponent,
+    WutangComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
